@@ -15,7 +15,6 @@
             background-repeat: no-repeat;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
         }
 
         /* ส่วนเฮดเดอร์ */
@@ -109,6 +108,54 @@
 
         .btn:hover {
             background-color: #d78219;
+        }
+
+        @media (max-width: 1000px) {
+            .hero {
+                height: a;
+                padding: 20px;
+                text-align: center;
+                margin-top: 40px; /* เพิ่มช่องว่างจากเฮดเดอร์ในมือถือ */
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+                text-align: left;
+                margin-bottom: 10px;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+                text-align: left;
+            }
+
+            .btn {
+                position: relative;
+                margin: 400px auto 0;
+                bottom: unset;
+                right: unset;
+                display: block;
+                width: fit-content;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .btn {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
         }
 
         /* Footer */
