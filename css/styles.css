@@ -1,0 +1,209 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #f9f9f9;
+    font-family: "Sriracha", serif;
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f4d03f; /* สีทองเมื่อ hover */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000000; /* สีเข้ม */
+}
+
+main p {
+    color: #2f2727;
+    font-size: 1.1rem;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #262626;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #0078d4; /* สีฟ้าสดใส */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cdcdcd; /* สีฟ้าเข้มขึ้น */
+}
+
+form button[type="reset"] {
+    background-color: #bbbbbb;
+    color: #000000;
+}
+
+form button[type="reset"]:hover {
+    background-color: #d4d4d4;
+}
+
+.attractions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.attractions-list img {
+    width: 100%; /* หรือกำหนดค่าคงที่ เช่น 300px */
+    height: 600px; /* กำหนดความสูงที่ต้องการ */
+    object-fit: cover; /* ครอบรูปให้เต็มกรอบโดยไม่เสียสัดส่วน */
+    border-radius: 5px; /* ทำมุมโค้งมนเล็กน้อย */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Info Section */
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 1 1 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%; /* ความกว้างเต็มพื้นที่ของการ์ด */
+    height: 200px; /* กำหนดความสูงคงที่ */
+    object-fit: cover; /* ปรับขนาดภาพให้ครอบคลุมโดยไม่ผิดสัดส่วน */
+    border-radius: 10px; /* มุมโค้งมน */
+    margin-bottom: 15px;
+    border: 3px solid #C7C7BB; /* เส้นขอบ */
+}
+
+.card p {
+    color: #333333;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Footer */
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
