@@ -87,7 +87,6 @@
             margin: 65px 0;
             position: absolute;
             top: 180px;
-            bottom: 20px;
             left: 20px;
             line-height: 2;
             text-align: left;
@@ -95,6 +94,9 @@
         }
 
         .btn {
+            position: absolute;
+            bottom: 20px; /* ระยะห่างจากขอบล่าง */
+            right: 20px; /* ระยะห่างจากขอบขวา */
             background-color: #f6c31c;
             color: rgb(23, 21, 21);
             padding: 10px 20px;
@@ -102,6 +104,7 @@
             border-radius: 5px;
             font-weight: bold;
             transition: background 0.3s ease;
+            z-index: 10;
         }
 
         .btn:hover {
